@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "json-server -p 4000 db.json -m ./node_modules/json-server-auth"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.1",
