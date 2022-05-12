@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "email": "user@email.com",
+      "password": "$2a$10$kt.q.8t26ebgrf1QgPYGA.ZkC/fv5EIrtE4LDFwQ75KSjjjV5VttC",
+      "id": 1
+    }
+  ],
+  "producer": [
+    {
+      "cpf": "",
+      "cnpj": "71.433.067/0001-68",
+      "name": "Produtor 6",
+      "farmName": "Fazenda 6",
+      "totalHectares": "10089",
+      "arableHectares": "5052",
+      "vegetationArable": "2063",
+      "cropsPlanted": [
+        "soybean",
+        "cotton"
+      ],
+      "uf": "PA",
+      "city": "1500503",
+      "id": 8
+    },
+    {
+      "cpf": "687.727.210-22",
+      "cnpj": "",
+      "name": "Produtor 9",
+      "farmName": "Fazenda 9",
+      "totalHectares": "10089",
+      "arableHectares": "5054",
+      "vegetationArable": "2023",
+      "cropsPlanted": [
+        "soybean",
+        "corn",
+        "coffee"
+      ],
+      "uf": "TO",
+      "city": "1702000",
+      "id": 9
+    },
+    {
+      "cpf": "430.794.620-09",
+      "cnpj": "",
+      "name": "Produtor 10",
+      "farmName": "Fazenda 10",
+      "totalHectares": "10010",
+      "arableHectares": "5010",
+      "vegetationArable": "2010",
+      "cropsPlanted": [
+        "soybean",
+        "cotton",
+        "sugarCane"
+      ],
+      "uf": "PA",
+      "city": "1500503",
+      "id": 10
+    },
+    {
+      "cpf": "430.794.620-09",
+      "cnpj": "",
+      "name": "Produtor 1",
+      "farmName": "Fazenda 2",
+      "totalHectares": "10001",
+      "arableHectares": "5001",
+      "vegetationArable": "2001",
+      "cropsPlanted": [
+        "corn",
+        "cotton"
+      ],
+      "uf": "RR",
+      "city": "1400159",
+      "id": 11
+    },
+    {
+      "cpf": "",
+      "cnpj": "71.433.067/0001-68",
+      "name": "Produtor 2",
+      "farmName": "Fazenda 2",
+      "totalHectares": "10002",
+      "arableHectares": "5002",
+      "vegetationArable": "2002",
+      "cropsPlanted": [
+        "cotton",
+        "coffee"
+      ],
+      "uf": "PA",
+      "city": "1500958",
+      "id": 12
+    },
+    {
+      "cpf": "",
+      "cnpj": "71.433.067/0001-68",
+      "name": "Produtor 11",
+      "farmName": "Fazenda 11",
+      "totalHectares": "10011",
+      "arableHectares": "5011",
+      "vegetationArable": "2011",
+      "cropsPlanted": [
+        "cotton",
+        "sugarCane"
+      ],
+      "uf": "AM",
+      "city": "1300680",
+      "id": 13
+    },
+    {
+      "cpf": "",
+      "cnpj": "71.433.067/0001-68",
+      "name": "Produtor 12",
+      "farmName": "Fazenda 12",
+      "totalHectares": "10012",
+      "arableHectares": "5012",
+      "vegetationArable": "2012",
+      "cropsPlanted": [
+        "corn",
+        "cotton",
+        "sugarCane"
+      ],
+      "uf": "RR",
+      "city": "1400704",
+      "id": 14
+    },
+    {
+      "cpf": "687.727.210-22",
+      "cnpj": "",
+      "name": "Produtor 7",
+      "farmName": "Fazenda 7",
+      "totalHectares": "10007",
+      "arableHectares": "5007",
+      "vegetationArable": "2007",
+      "cropsPlanted": [
+        "soybean",
+        "cotton",
+        "sugarCane"
+      ],
+      "uf": "AP",
+      "city": "1600402",
+      "id": 16
+    },
+    {
+      "cpf": "",
+      "cnpj": "71.433.067/0001-68",
+      "name": "Produtor 8",
+      "farmName": "Fazenda 8",
+      "totalHectares": "10008",
+      "arableHectares": "5008",
+      "vegetationArable": "2008",
+      "cropsPlanted": [
+        "corn",
+        "coffee"
+      ],
+      "uf": "RN",
+      "city": "2400901",
+      "id": 17
+    },
+    {
+      "cpf": "687.727.210-22",
+      "cnpj": "",
+      "name": "Produtor 1",
+      "farmName": "Fazenda 1",
+      "totalHectares": "10001",
+      "arableHectares": "5001",
+      "vegetationArable": "2001",
+      "cropsPlanted": [
+        "cotton",
+        "corn",
+        "sugarCane"
+      ],
+      "uf": "RJ",
+      "city": "3304557",
+      "id": 18
+    }
+  ]
+}
