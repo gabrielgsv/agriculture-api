@@ -3,6 +3,9 @@ const auth = require('json-server-auth')
 
 const app = jsonServer.create()
 const router = jsonServer.router('db.json')
+const cors = require('cors')
+
+app.use(cors())
 
 // /!\ Bind the router db to the app
 app.db = router.db
