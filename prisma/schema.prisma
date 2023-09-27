@@ -12,25 +12,34 @@ datasource db {
 }
 
 model User {
-  id       String     @id @default(uuid())
-  email    String     @unique
-  password String
-  name     String
-  producer Producer[]
+  id               String            @id @default(uuid())
+  email            String            @unique
+  password         String
+  name             String
+  producer         Producer[]
+  plantation_crops PlantationCrops[]
 }
 
 model Producer {
-  id                String  @id @default(uuid())
-  cpf               Int
-  cnpj              Int
-  name              String
-  farm_name         String
-  total_hectares    Float
-  arable_hectares   Float
-  vegetation_arable Float
-  crops_planted     Json
-  uf                String
-  city              Int
-  user              User?   @relation(fields: [user_id], references: [id])
-  user_id           String?
+  id                        String                      @id @default(uuid())
+  cpf                       Int
+  cnpj                      Int
+  name                      String
+  farm_name                 String
+  total_hectares            Float
+  arable_hectares           Float
+  vegetation_arable         Float
+  plantation_crops          PlantationCrops[]
+  uf                        String
+  city                      Int
+  user                      User?                       @relation(fields: [user_id], references: [id])
+  user_id                   String?
+}
+
+model PlantationCrops {
+  id                        String                      @id @default(uuid())
+  name                      String
+  producer                  Producer[]
+  User                      User?                       @relation(fields: [user_id], references: [id])
+  user_id                   String?
 }
