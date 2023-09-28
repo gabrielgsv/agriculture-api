@@ -6,9 +6,10 @@ import { AuthModule } from './auth/auth.module';
 import { PlantationCropsModule } from './plantation-crops/plantation-crops.module';
 import { JwtAuthGuard } from './auth/guards/jwt-auth.guard';
 import { APP_GUARD } from '@nestjs/core';
+import { ProducersModule } from './producers/producers.module';
 
 @Module({
-  imports: [UsersModule, AuthModule, PlantationCropsModule],
+  imports: [UsersModule, AuthModule, PlantationCropsModule, ProducersModule],
   controllers: [AppController],
   providers: [
     AppService,
