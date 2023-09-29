@@ -36,7 +36,7 @@ export class ProducersService {
       data: {
         ...updateProducerDto,
         plantation_crops: {
-          connect: updateProducerDto.plantation_crops.map((id) => ({ id })),
+          set: updateProducerDto.plantation_crops.map((id) => ({ id })),
         },
       },
     });
