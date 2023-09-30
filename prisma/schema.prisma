@@ -22,8 +22,8 @@ model User {
 
 model Producer {
   id                        String                      @id @default(uuid())
-  cpf                       Int
-  cnpj                      Int
+  cpf                       Float?
+  cnpj                      Float?
   name                      String
   farm_name                 String
   total_hectares            Float
