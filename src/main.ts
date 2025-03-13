@@ -30,8 +30,6 @@ async function bootstrap() {
     type: VersioningType.URI,
   });
 
-  app.setGlobalPrefix('v1');
-
   await app.listen(3000);
 }
 bootstrap();
